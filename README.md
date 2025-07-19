@@ -1,84 +1,90 @@
 Smart To-Do List
-A feature-rich, modern, and responsive To-Do List web application for desktop and mobile.
-Includes persistent storage (tasks saved across refreshes), light/dark mode, live filtering, and a clean UI.
+A modern, responsive, and feature-packed To-Do List app.
+Experience light/dark mode, persistent browser-based storage, live task filtering, and a beautiful UI—now live at:
 
-✅ Features
+👉 https://avi007-debug.github.io/To-Do-List/
+
+🚀 Features
 Add, edit, and delete tasks
 
-Mark tasks as completed (toggle)
-
-Persistent: Tasks are saved in your browser (localStorage) and remain after refreshing or closing the app
+Mark complete/incomplete with a tap
 
 Bulk clear completed tasks
 
-Three filter views: All, Active, Completed (with live highlight)
+Filter: All, Active, Completed—with real-time button highlight
 
-Dark/Light mode with one-click toggle and automatic preference saving
+Persistent storage: Your to-dos stay saved per device/browser
 
-Responsive layout: Looks great on desktop and mobile
+Dark/Light mode: One-click toggle, remembers your preference
 
-Live feedback: Toast notifications for actions
+Responsive: Looks and works great on desktops and mobile
 
-🚀 Getting Started
-Prerequisites
-Modern web browser (Chrome, Firefox, Edge, Safari, Android browser)
+Feedback: Toast notifications for actions
 
-Running Locally
-Download or clone this repository
+🌐 Live Demo
+Try it now:
+https://avi007-debug.github.io/To-Do-List/
+
+🖥️ How to Use
+Add Task: Type and press "Add" or Enter.
+
+Complete: Click/tap task text.
+
+Edit: Click the pencil icon.
+
+Delete: Click the trash icon.
+
+Clear Completed: Use the "Clear Completed" button.
+
+Filter: Use the filter buttons (All, Active, Completed).
+
+Switch Theme: Toggle moon/sun button—preference is remembered.
+
+✨ Persistent Tasks—How It Works
+Your tasks are saved in your browser (localStorage) and will remain even after closing or refreshing the page
+
+Note: Tasks stay only in the current browser on your device (not synced between devices).
+
+On Android: Use your default browser (not incognito/private mode) for persistence.
+
+Not working? Open the app using the link above, not as a file (file://), and avoid strict/private modes.
+
+🏗️ Development (Optional)
+Want to run or develop locally?
+
+Clone this repository:
 
 bash
-git clone <your-repo-url>
-Or simply download the ZIP and extract it.
-
-Open index.html in your browser
-(Double-click it, or right-click → “Open with” your preferred browser)
-
-(Recommended for mobile testing):
-Run a local HTTP server (optional but best for Android)
+git clone https://github.com/avi007-debug/To-Do-List.git
+Open index.html in a modern browser
+Or use a local server for best results—on mobile/Android, always prefer HTTP over file://:
 
 bash
-# Using Python 3
+# Example (Python 3)
 python -m http.server 8000
-# Then visit http://localhost:8000 in your mobile/desktop browser
-Directory Structure
+# Visit http://localhost:8000
+📁 Structure
 text
 .
 ├── index.html
 ├── style.css
 └── script.js
-🖥️ Usage
-Add Task: Use the input box and "Add" button or Enter key.
-
-Complete Task: Click the task text.
-
-Edit Task: Click the pencil/edit icon.
-
-Delete Task: Click the trash icon.
-
-Clear Completed: Click the "Clear Completed" button.
-
-Filter: Switch views between All, Active, and Completed tasks with the filter buttons.
-
-Dark/Light Mode: Toggle using the moon/sun button in the header.
-
 ⚡ Tech Stack
-HTML5
+HTML5 + CSS3
 
-CSS3 (with CSS variables for theming)
+JavaScript (no frameworks)
 
-JavaScript (no dependencies)
+Font Awesome icons
 
-FontAwesome for icons
+Hosted on GitHub Pages
 
 📱 Mobile Support
 Fully responsive
 
-Persistent storage works on most modern mobile browsers.
-Note: Incognito/private mode or opening file:// on Android may prevent task saving; use a local web server for best results.
+Works on Chrome, Safari, Edge, Firefox, Android browsers
 
 🗂️ License
 MIT License — free for personal and commercial use.
 
-Enjoy your productivity!
-
-This is a frontend-only project. Tasks are stored on your browser device and are not visible or synced across different browsers or devices.
+Happy tasking!
+This is a front-end, open-source productivity app. Your tasks and preferences are private to your browser—they never leave your device.
