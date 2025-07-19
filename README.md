@@ -2,18 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Smart To-Do List - README</title>
-  <style>
-    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f3f6fa; color: #222; padding: 2em; }
-    h1 { color: #007bff; }
-    a { color: #007bff; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .section { margin-bottom: 2em; }
-    ul, ol { margin-left: 2em; }
-    pre {background: #23272f; color: #eee; padding: 1em; border-radius: 7px;}
-    code {background: #f4f6f8; padding: 2px 6px; border-radius: 4px;}
-    .structure {background: #f5f5fa; border: 1px solid #eee; border-radius: 5px; padding: 1em;}
-  </style>
+
 </head>
 <body>
 
